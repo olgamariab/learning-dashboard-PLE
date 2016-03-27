@@ -1,0 +1,419 @@
+2016-03-08 22:07:59 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:08:09 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:08:26 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:08:28 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:09:08 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:09:12 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:09:29 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:09:31 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:09:57 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:10:12 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:10:25 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:11:42 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:12:08 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:12:41 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-08 22:13:09 Error: [Cake\Core\Exception\Exception] fopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+fopen(https://byu.instructure.com/api/v1/courses/14/assignments?per_page=100): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(260): Cake\Network\Http\Adapter\Stream->_open('https://byu.ins...')
+#1 /cake/vendor/cakephp/cakephp/src/Network/Http/Adapter/Stream.php(81): Cake\Network\Http\Adapter\Stream->_send(Object(Cake\Network\Http\Request))
+#2 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(360): Cake\Network\Http\Adapter\Stream->send(Object(Cake\Network\Http\Request), Array)
+#3 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(334): Cake\Network\Http\Client->send(Object(Cake\Network\Http\Request), Array)
+#4 /cake/vendor/cakephp/cakephp/src/Network/Http/Client.php(209): Cake\Network\Http\Client->_doRequest('GET', 'https://byu.ins...', Array, Array)
+#5 /cake/src/Model/Table/CanvasTable.php(37): Cake\Network\Http\Client->get('/api/v1/courses...')
+#6 /cake/src/Controller/DashboardController.php(29): App\Model\Table\CanvasTable->assignments(14)
+#7 [internal function]: App\Controller\DashboardController->index()
+#8 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#9 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#11 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#12 {main}
+
+
+2016-03-10 13:49:25 Error: Fatal Error (4): syntax error, unexpected 'Submission' (T_STRING) in [/cake/src/Controller/DashboardController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-10 13:49:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Submission' (T_STRING)
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/cake/src/Contr...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-10 13:49:47 Error: Fatal Error (4): syntax error, unexpected 'Submission' (T_STRING) in [/cake/src/Controller/DashboardController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-10 13:49:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'Submission' (T_STRING)
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/cake/src/Contr...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-10 13:52:11 Error: Fatal Error (1): Call to a member function find() on boolean in [/cake/src/Controller/DashboardController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-10 13:52:12 Error: [Cake\Error\FatalErrorException] Call to a member function find() on boolean
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/cake/src/Contr...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-10 13:58:15 Error: Fatal Error (1): Call to a member function assignments() on boolean in [/cake/src/Controller/DashboardController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 99
+[main] - [internal], line ??
+
+
+
+2016-03-10 13:58:16 Error: [Cake\Error\FatalErrorException] Call to a member function assignments() on boolean
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(99): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/cake/src/Contr...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-10 13:59:22 Error: [BadMethodCallException] Unknown method "assignments"
+Request URL: /
+Stack Trace:
+#0 /cake/src/Controller/DashboardController.php(29): Cake\ORM\Table->__call('assignments', Array)
+#1 /cake/src/Controller/DashboardController.php(29): Cake\ORM\Table->assignments(14)
+#2 [internal function]: App\Controller\DashboardController->index()
+#3 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#6 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-10 14:06:23 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'learning.homework' doesn't exist
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'homework', Array, Object(Cake\Database\Schema\Table))
+#1 /cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('homework', Array)
+#2 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('homework')
+#3 /cake/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /cake/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(1256): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(941): Cake\ORM\Table->query()
+#7 /cake/src/Controller/DashboardController.php(27): Cake\ORM\Table->find()
+#8 [internal function]: App\Controller\DashboardController->index()
+#9 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#12 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-10 14:07:13 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'learning.homework' doesn't exist
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'homework', Array, Object(Cake\Database\Schema\Table))
+#1 /cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('homework', Array)
+#2 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('homework')
+#3 /cake/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /cake/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(1256): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(941): Cake\ORM\Table->query()
+#7 /cake/src/Controller/DashboardController.php(27): Cake\ORM\Table->find()
+#8 [internal function]: App\Controller\DashboardController->index()
+#9 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#12 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-10 14:07:21 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'learning.homework' doesn't exist
+Request URL: /
+Stack Trace:
+#0 /cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'homework', Array, Object(Cake\Database\Schema\Table))
+#1 /cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('homework', Array)
+#2 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('homework')
+#3 /cake/vendor/cakephp/cakephp/src/ORM/Query.php(211): Cake\ORM\Table->schema()
+#4 /cake/vendor/cakephp/cakephp/src/ORM/Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(1256): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /cake/vendor/cakephp/cakephp/src/ORM/Table.php(941): Cake\ORM\Table->query()
+#7 /cake/src/Controller/DashboardController.php(27): Cake\ORM\Table->find()
+#8 [internal function]: App\Controller\DashboardController->index()
+#9 /cake/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#10 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 /cake/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardController))
+#12 /cake/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
