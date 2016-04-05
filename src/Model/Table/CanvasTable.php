@@ -61,6 +61,6 @@ class CanvasTable extends Table
         $notifications = $response->body('json_decode');
         
         return $notifications;
-    }
-
 }
+}
+/* Olga's notifications API call populating notifications section
